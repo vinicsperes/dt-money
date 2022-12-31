@@ -101,9 +101,9 @@ export const TransactionTypeButton = styled(RadioGroup.Item) <TransactionTypeBut
 
   svg {
     color: ${(props) =>
-    props.variant === 'income'
-      ? props.theme['green-300']
-      : props.theme['red-300']};
+      props.variant === 'income'
+        ? props.theme['green-300']
+        : props.theme['red-300']};
   }
   &[data-state='unchecked']:hover {
     transition: background-color 0.2s;
@@ -113,9 +113,9 @@ export const TransactionTypeButton = styled(RadioGroup.Item) <TransactionTypeBut
   &[data-state='checked'] {
     color: ${(props) => props.theme.white};
     background: ${(props) =>
-    props.variant === 'income'
-      ? props.theme['green-500']
-      : props.theme['red-500']};
+      props.variant === 'income'
+        ? props.theme['green-500']
+        : props.theme['red-500']};
 
     svg {
       color: ${(props) => props.theme.white};
