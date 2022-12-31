@@ -18,6 +18,8 @@ O projeto desenvolvido durante o curso Ignite-ReactJS da <a href="https://www.ro
 - <a href="https://phosphoricons.com/">PhosphorIcons</a>
 - <a href="https://styled-components.com/">Styled Components</a>
 - <a href="https://zod.dev/">Zod</a>
+- <a href="https://github.com/typicode/json-server">JSON Server</a>
+- <a href="https://axios-http.com/ptbr/docs/intro">Axios</a>
 
 ## :octocat: Rodando o projeto
 
