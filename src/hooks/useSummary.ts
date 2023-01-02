@@ -1,6 +1,6 @@
+import { useMemo } from 'react'
 import { useContextSelector } from 'use-context-selector'
 import { TransactionsContext } from '../contexts/TransactionsContext'
-import { useMemo } from 'react'
 
 export function useSummary() {
   const transactions = useContextSelector(TransactionsContext, (context) => {
@@ -8,7 +8,7 @@ export function useSummary() {
   })
 
   const summary = useMemo(() => {
-    transactions.reduce(
+    return transactions.reduce(
       (acc, transaction) => {
         if (transaction.type === 'income') {
           acc.income += transaction.price
