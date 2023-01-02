@@ -29,6 +29,12 @@ Instalar as dependências
 npm install | npm i
 ```
 
+Iniciar o json server
+
+```sh
+npm run dev:server
+```
+
 Iniciar o ambiente
 
 ```sh
